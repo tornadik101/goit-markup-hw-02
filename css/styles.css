@@ -1,0 +1,152 @@
+
+/* Body style */
+
+body{
+    font-family:'Roboto','sans-serif';
+    color: #434455;
+}
+
+/* Header style */
+.page-header a {
+    text-decoration: none;
+}
+
+.page-header{
+    background: #FFFFFF;
+}
+
+.logo{
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
+}
+.studio{
+    color: #2E2F42;
+}
+
+.list a{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.link a{
+    font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+/* Main */
+
+.main-baner{
+    background: #2E2F42;
+}
+
+.baner-text{
+    font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+}
+.main-btn{
+    font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        background-color: #4D5AE5;
+}
+
+.list {
+    list-style-type: none;
+}
+/* list of skills */
+
+.list h3{
+    font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.text-content{
+    font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+/* What are we doing */
+.gallery-list{
+    background-color: #E5E5E5;
+}
+
+.title-two{
+    font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42;
+}
+
+.title-three{
+    font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+/* Our Team */
+.Our-Team{
+    background-color: #F4F4FD;
+}
+/* footer */
+
+.page-footer{
+    background-color: #2E2F42;
+}
+
+.white{
+    color: #F4F4FD;
+}
+
+.page-footer a{
+    text-decoration: none;
+}
+
+
+.text-footer{
+    font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #F4F4FD;
+}
