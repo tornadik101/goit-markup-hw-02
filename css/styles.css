@@ -82,7 +82,8 @@ body {
 /* Main */
 
 
-.main-btn:hover{
+.main-btn:hover,
+.main-btn:focus{
     background: #404BBF;    
 }
 
