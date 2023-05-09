@@ -151,6 +151,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
   color: var(--heading-main-color);
 }
 
@@ -164,13 +165,22 @@ body {
 }
 
 /* Our Team */
-.Our-Team {
+.our-team {
   background-color: #f4f4fd;
 }
+
+.team{
+    background-color: #ffffff;
+}
+
 /* footer */
 
 .page-footer {
   background-color: #2e2f42;
+}
+
+.page-address{
+    font-style: normal;
 }
 
 .white {
