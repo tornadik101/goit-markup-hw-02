@@ -3,6 +3,7 @@
 :root {
     --background-color: #ffffff;
     --heading-main-color:#2e2f42;
+    --bg-btn-white:#F4F4FD;
 }
 
 
@@ -76,6 +77,7 @@ body {
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #4D5AE5;
+        background-color: var(--bg-btn-white);
         cursor: pointer;
 }
 
@@ -140,9 +142,6 @@ body {
 }
 
 /* What are we doing */
-.gallery-list {
-  background-color: #e5e5e5;
-}
 
 .title-two {
   font-style: normal;
@@ -165,13 +164,10 @@ body {
 }
 
 /* Our Team */
-.our-team {
-  background-color: #f4f4fd;
+.our-team{
+    background-color: #F4F4FD;
 }
 
-.team{
-    background-color: #ffffff;
-}
 
 /* footer */
 
