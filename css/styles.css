@@ -9,16 +9,18 @@
 
 
 body {
-  font-family: "Roboto", "sans-serif";
+  font-family: "Roboto","sans-serif";
   color: #434455;
-  color: var(--background-color);
+  background-color: var(--background-color);
 }
 
 /* Header style */
 .page-header a {
   text-decoration: none;
 }
-
+.link{
+    text-decoration: none;
+}
 
 .logo {
   font-family: "Raleway",
@@ -34,7 +36,9 @@ body {
   color: #4d5ae5;
 }
 .studio {
-  color: var(--heading-main-color);
+    font-family: "Raleway",
+            "sans-serif";
+   color: var(--heading-main-color);
 }
 
 .color-link{
@@ -114,7 +118,7 @@ body {
 
 
 .list {
-  list-style-type: none;
+  list-style: none;
 }
 /* list of skills */
 
