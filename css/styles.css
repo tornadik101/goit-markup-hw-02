@@ -1,38 +1,37 @@
-
 /* Body style */
 
-body{
-    font-family:'Roboto','sans-serif';
-    color: #434455;
+body {
+  font-family: "Roboto", "sans-serif";
+  color: #434455;
 }
 
 /* Header style */
 .page-header a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-.page-header{
-    background: #FFFFFF;
+.page-header {
+  background: #ffffff;
 }
 
-.logo{
-    font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4D5AE5;
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
-.studio{
-    color: #2E2F42;
+.studio {
+  color: #2e2f42;
 }
 
-.list a{
-        font-style: normal;
+.color-link{
+    font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -40,113 +39,131 @@ body{
         color: #2E2F42;
 }
 
-.link a{
-    font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+.social-links .color-link{
+    color: #434455;
 }
+
+.social-links .color-link:hover,
+.social-links .color-link:focus{
+    color: #404BBF;
+}
+
+.menu .color-link:hover,
+.menu .color-link:focus{
+    color: #404BBF;
+}
+
+.btn:hover,
+.btn:focus{
+    background-color: #404BBF;
+}
+
+
 /* Main */
 
-.main-baner{
-    background: #2E2F42;
+
+.main-btn:hover{
+    background: #404BBF;    
 }
 
-.baner-text{
-    font-style: normal;
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
-        text-align: center;
-        letter-spacing: 0.02em;
-        color: #FFFFFF;
+.main-baner {
+  background: #2e2f42;
 }
-.main-btn{
-    font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.04em;
-        color: #FFFFFF;
-        background-color: #4D5AE5;
+
+.baner-text {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
+
+.main-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+
+
 
 .list {
-    list-style-type: none;
+  list-style-type: none;
 }
 /* list of skills */
 
-.list h3{
-    font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2E2F42;
+.list h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-.text-content{
-    font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+.text-content {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* What are we doing */
-.gallery-list{
-    background-color: #E5E5E5;
+.gallery-list {
+  background-color: #e5e5e5;
 }
 
-.title-two{
-    font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        text-align: center;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        color: #2E2F42;
+.title-two {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
-.title-three{
-    font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2E2F42;
+.title-three {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 /* Our Team */
-.Our-Team{
-    background-color: #F4F4FD;
+.Our-Team {
+  background-color: #f4f4fd;
 }
 /* footer */
 
-.page-footer{
-    background-color: #2E2F42;
+.page-footer {
+  background-color: #2e2f42;
 }
 
-.white{
-    color: #F4F4FD;
+.white {
+  color: #f4f4fd;
 }
 
-.page-footer a{
-    text-decoration: none;
+.page-footer a {
+  text-decoration: none;
 }
 
-
-.text-footer{
-    font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #F4F4FD;
+.text-footer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
