@@ -1,8 +1,17 @@
 /* Body style */
 
+:root {
+    --background-color: #ffffff;
+    --heading-main-color:#2e2f42;
+}
+
+
+
+
 body {
   font-family: "Roboto", "sans-serif";
   color: #434455;
+  color: var(--background-color);
 }
 
 /* Header style */
@@ -10,12 +19,10 @@ body {
   text-decoration: none;
 }
 
-.page-header {
-  background: #ffffff;
-}
 
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway",
+    "sans-serif";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -27,7 +34,7 @@ body {
   color: #4d5ae5;
 }
 .studio {
-  color: #2e2f42;
+  color: var(--heading-main-color);
 }
 
 .color-link{
@@ -36,7 +43,7 @@ body {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #2E2F42;
+        color: var(--heading-main-color);
 }
 
 .social-links .color-link{
@@ -56,8 +63,19 @@ body {
 .btn:hover,
 .btn:focus{
     background-color: #404BBF;
+    color: #ffffff;
 }
 
+.btn{
+    font-family:inherit;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #4D5AE5;
+        cursor: pointer;
+}
 
 /* Main */
 
@@ -76,10 +94,11 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--background-color)
 }
 
 .main-btn {
+  font-family: inherit;  
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -87,7 +106,7 @@ body {
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color:#ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
 }
@@ -105,7 +124,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--heading-main-color);
 }
 
 .text-content {
@@ -129,7 +148,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--heading-main-color);
 }
 
 .title-three {
@@ -138,7 +157,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--heading-main-color);
 }
 
 /* Our Team */
