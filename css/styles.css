@@ -1,4 +1,4 @@
-/* Body style */
+/*!================== Body style=============== */
 
 :root {
     --background-color: #ffffff;
@@ -16,7 +16,7 @@ body {
   background-color: var(--background-color);
 }
 
-/* Header style */
+/*!================ Header style================== */
 .page-header a {
   text-decoration: none;
 }
@@ -82,7 +82,7 @@ body {
         cursor: pointer;
 }
 
-/* Main */
+/*!================ Main=============== */
 
 
 .main-btn:hover,
@@ -122,7 +122,7 @@ body {
 .list {
   list-style: none;
 }
-/* list of skills */
+/*!================= list of skills================= */
 
 .list h3 {
   font-style: normal;
@@ -142,8 +142,11 @@ body {
   color: var(--p-text-color);
 }
 
-/* What are we doing */
+/*!=================== What are we doing============== */
 
+.gallery-list{
+    background-color: #ffffff;
+}
 .title-two {
   font-style: normal;
   font-weight: 500;
@@ -163,12 +166,16 @@ body {
   color: var(--heading-main-color);
 }
 
-/* Our Team */
+/*! +===============Our Team================= */
 .our-team{
     background-color: #F4F4FD;
 }
 
-
+.sub-title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+}
 /* footer */
 
 .page-footer {
