@@ -144,7 +144,7 @@ body {
 
 /*!=================== What are we doing============== */
 
-.gallery-list{
+.link-item{
     background-color: #ffffff;
 }
 .title-two {
@@ -176,6 +176,7 @@ body {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
+    letter-spacing: 0.02em;
     color: var(--heading-main-color);
 }
 /* footer */
