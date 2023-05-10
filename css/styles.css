@@ -151,7 +151,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  text-align: center;
   color: var(--heading-main-color);
 }
 
